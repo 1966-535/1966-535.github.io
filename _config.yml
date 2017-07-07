@@ -5,12 +5,12 @@ redcarpet:
 highlighter:      pygments
 
 # Permalinks
-permalink:        /posts/:year/:month/:title/
+permalink:        /posts/:title/
 
 # User Configuration
 title:            Metumaribe
-tagline:          'thoughts.toString( )'
-description:      'Ramblings and opinionated thoughts on technology.'
+tagline:          'thoughts on software '
+description:      'Partially opinionated thoughts on technology.'
 url:              http://Metumaribe.com
 baseurl:          '/'
 paginate:         5
