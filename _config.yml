@@ -23,12 +23,12 @@ gems:
 
 # Author Info
 author:
-  name:           'Anand Mani Sankar'
-  url:            https://twitter.com/Metumaribe
+  name:           'Metumaribe and Co.'
+  url:            https://metumaribe.github.io
 
 # Social Integration
 social:
-  twitter:        msanand
+  #twitter:        none
   #disqus:         thejournalofanandmanisankar
   #addthis_pubid:  ra-53e8fec950d56b1c
 
@@ -44,4 +44,4 @@ github:
   feedback:       https://github.com/Metumaribe/feedback/issues/new
 
 # Version Info
-version:          0.0.1
+version:          1.0.1
