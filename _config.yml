@@ -5,7 +5,7 @@ redcarpet:
 highlighter:      pygments
 
 # Permalinks
-permalink:        /posts/:title/
+permalink:        /posts/:year/:month/:title/
 
 # User Configuration
 title:            Metumaribe
