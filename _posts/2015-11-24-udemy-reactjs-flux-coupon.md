@@ -10,6 +10,6 @@ analytics: true
 
 Udemy has offered 50 free coupons for the readers of my blog, for the course ['Build Web Apps with React JS and Flux'](https://www.udemy.com/learn-and-understand-reactjs/). <br>
 
-Coupon code: `thoughtstostring`
+Coupon code: `thoughtstostring` ooo
 
 I've been trying to get my hands dirty with React and Flux, and hope to blog about my experience with the library sometime soon. Meanwhile, enjoy the course!
