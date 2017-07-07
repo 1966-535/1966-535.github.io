@@ -8,10 +8,10 @@ highlighter:      pygments
 permalink:        /posts/:title/
 
 # User Configuration
-title:            ANAND MANI SANKAR
+title:            Metumaribe
 tagline:          'thoughts.toString( )'
 description:      'Ramblings and opinionated thoughts on technology.'
-url:              http://anandmanisankar.com
+url:              http://Metumaribe.com
 baseurl:          '/'
 paginate:         5
 excerpt_separator: '<br>'
@@ -24,24 +24,24 @@ gems:
 # Author Info
 author:
   name:           'Anand Mani Sankar'
-  url:            https://twitter.com/msanand
+  url:            https://twitter.com/Metumaribe
 
 # Social Integration
 social:
   twitter:        msanand
-  disqus:         thejournalofanandmanisankar
-  addthis_pubid:  ra-53e8fec950d56b1c
+  #disqus:         thejournalofanandmanisankar
+  #addthis_pubid:  ra-53e8fec950d56b1c
 
 # Google Analytics Configuration
 # Proxy response must be in JSON and should have the fields - ga:pagePath, ga:pageview
 google_analytics:
-  tracking_id:      UA-53680945-1
-  super_proxy_url:  http://msa-super-proxy.appspot.com/query?id=ahFzfm1zYS1zdXBlci1wcm94eXIVCxIIQXBpUXVlcnkYgICAgICAgAoM&format=json
+  #tracking_id:      UA-53680945-1
+  #super_proxy_url:  http://msa-super-proxy.appspot.com/query?id=ahFzfm1zYS1zdXBlci1wcm94eXIVCxIIQXBpUXVlcnkYgICAgICAgAoM&format=json
 
 # Github
 github:
-  repo:           https://github.com/msanand/msanand.github.io
-  feedback:       https://github.com/msanand/feedback/issues/new
+  repo:           https://github.com/Metumaribe/Metumaribe.github.io
+  feedback:       https://github.com/Metumaribe/feedback/issues/new
 
 # Version Info
-version:          1.4.0
+version:          0.0.1
