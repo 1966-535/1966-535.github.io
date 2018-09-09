@@ -45,3 +45,5 @@ github:
 
 # Version Info
 version:          1.0.1
+
+theme: jekyll-theme-minimal
