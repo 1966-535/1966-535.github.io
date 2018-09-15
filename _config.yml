@@ -11,8 +11,8 @@ permalink:        /posts/:title/
 title:            Capital Engineering
 tagline:          'Software'
 description:      'Working now. Shoot Us an email! :)'
-url:              http://capitalengineering.github.io/
-baseurl:          '/home/'
+url:              http://capitalengineering.github.io
+baseurl:          '/'
 paginate:         5
 excerpt_separator: '<br>'
 gems:
@@ -24,7 +24,7 @@ gems:
 # Author Info
 author:
   name:           'Metumaribe and Co.'
-  url:            https://capitalengineering.github.io/home/
+  url:            https://capitalengineering.github.io
 
 # Social Integration
 social:
