@@ -40,7 +40,7 @@ google_analytics:
 
 # Github
 github:
-  repo:           https://github.com/capitalengineering/capitalengineering.github.io
+  repo:           https://github.com/capitalengineering/home
   feedback:       https://github.com/capitalengineering/feedback/issues/new
 
 # Version Info

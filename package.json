@@ -1,24 +1,24 @@
 {
-  "name": "metumaribe.com",
+  "name": "CapitalEngineering",
   "version": "1.3.0",
-  "description": "metumaribe Journal",
+  "description": "capitalengineering Journal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/metumaribe/metumaribe.github.io.git"
+    "url": "git://github.com/capitalengineering/home"
   },
   "keywords": [
     "blog"
   ],
-  "author": "An metumariber",
+  "author": "An capitalengineeringr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/metumaribe/metumaribe.github.io/issues"
+    "url": "https://github.com/capitalengineering/capitalengineering.github.io/issues"
   },
-  "homepage": "https://github.com/metumaribe/metumaribe.github.io",
+  "homepage": "https://github.com/capitalengineering/capitalengineering.github.io/home",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.10.0",
