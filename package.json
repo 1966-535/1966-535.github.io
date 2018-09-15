@@ -16,9 +16,9 @@
   "author": "An capitalengineeringr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/capitalengineering/capitalengineering.github.io/issues"
+    "url": "https://github.com/capitalengineering/home/issues"
   },
-  "homepage": "https://github.com/capitalengineering/capitalengineering.github.io/home",
+  "homepage": "https://github.com/capitalengineering/home",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.10.0",
