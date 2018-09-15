@@ -9,10 +9,10 @@ permalink:        /posts/:title/
 
 # User Configuration
 title:            Capital Engineering
-tagline:          'thoughts on software '
-description:      'Partially opinionated thoughts on technology.'
-url:              http://capitalengineering.github.io/home/
-baseurl:          '/'
+tagline:          'Software'
+description:      'Working now. Shoot Us an email! :)'
+url:              http://capitalengineering.github.io/
+baseurl:          '/home/'
 paginate:         5
 excerpt_separator: '<br>'
 gems:
@@ -40,8 +40,8 @@ google_analytics:
 
 # Github
 github:
-  repo:           https://github.com/capitalengineering/home
-  feedback:       https://github.com/capitalengineering/feedback/issues/new
+  repo:           https://github.com/CapitalEngineering/home
+  feedback:       https://github.com/CapitalEngineering/feedback/issues/new
 
 # Version Info
 version:          1.0.1
