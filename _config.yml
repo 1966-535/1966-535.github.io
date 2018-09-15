@@ -8,10 +8,10 @@ highlighter:      pygments
 permalink:        /posts/:title/
 
 # User Configuration
-title:            Metumaribe
+title:            Capital Engineering
 tagline:          'thoughts on software '
 description:      'Partially opinionated thoughts on technology.'
-url:              http://Metumaribe.com
+url:              http://capitalengineering.github.io/home/
 baseurl:          '/'
 paginate:         5
 excerpt_separator: '<br>'
@@ -24,7 +24,7 @@ gems:
 # Author Info
 author:
   name:           'Metumaribe and Co.'
-  url:            https://metumaribe.github.io
+  url:            https://capitalengineering.github.io/home/
 
 # Social Integration
 social:
@@ -40,8 +40,8 @@ google_analytics:
 
 # Github
 github:
-  repo:           https://github.com/Metumaribe/Metumaribe.github.io
-  feedback:       https://github.com/Metumaribe/feedback/issues/new
+  repo:           https://github.com/capitalengineering/capitalengineering.github.io
+  feedback:       https://github.com/capitalengineering/feedback/issues/new
 
 # Version Info
 version:          1.0.1
