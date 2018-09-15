@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/capitalengineering/home"
+    "url": "git://github.com/capitalengineering/CapitalEngineering.github.io"
   },
   "keywords": [
     "blog"
@@ -16,9 +16,9 @@
   "author": "An capitalengineeringr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/capitalengineering/home/issues"
+    "url": "https://github.com/capitalengineering/issues"
   },
-  "homepage": "https://github.com/capitalengineering/home",
+  "homepage": "https://github.com/capitalengineering",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.10.0",

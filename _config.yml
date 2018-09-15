@@ -40,8 +40,8 @@ google_analytics:
 
 # Github
 github:
-  repo:           https://github.com/CapitalEngineering/home
-  feedback:       https://github.com/CapitalEngineering/feedback/issues/new
+  repo:           https://github.com/CapitalEngineering
+  feedback:       https://github.com/CapitalEngineering/CapitalEngineering.github.io/issues/new
 
 # Version Info
 version:          1.0.1
