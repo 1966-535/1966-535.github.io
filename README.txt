@@ -1,7 +1,7 @@
 Eventually by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
+Release branch
 
 Just a simple placeholder template for your kickass app/product/startup/whatever until it
 launches. Includes an email signup form and a cool slideshow background (more on both below).
