@@ -36,7 +36,31 @@
 				</div>
 			    </div>
 			</form>
-
+<!-- Begin maillist Signup Form -->
+<form method="post" name="subscribeform" id="subscribeform" enctype="multipart/form-data"> 
+            <br>
+            <br>
+                <h4><bold>Subscribe</bold></h4>
+                <small>We promise not to spam you : )</small><br><br>
+            <label><small>Email Address:</small></label>
+            <table border=0> <tr> <td> </td> 
+            <td class="attributeinput">
+            <input type=text name="email" value="" id="email" size="120" required></td> </tr> </table> 
+            <input type=hidden name="htmlemail" value="1"> <input type="hidden" name="list[4]" value="signup" /> 
+            <input type="hidden" name="subscribe" value="subscribe"/> <br>
+            <button class='btn btn-primary' onclick="if (checkform()) {submitForm();} return false;" >Subscribe to mailinglist</button> 
+            <div id="result" style="color: red;"></div> </form>
+            <script type="text/javascript"> 
+            function checkform() { re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/; if (!(re.test(jQuery("#email").val()))) { jQuery("#result").empty().append("Please enter a valid email address"); jQuery("#email").focus(); return false; } return true; } 
+            function submitForm() { successMessage = 'Thank you for your registration. Please check your email to confirm.'; 
+            data = jQuery('#subscribeform').serialize(); jQuery.ajax( { type: 'POST', 
+            data: data, url: "<?php  echo base_url().'/lists/?p=subscribe&id=1'?>", 
+            dataType: 'html', success: function (data, status, request) 
+            { jQuery("#result").empty().append(data != '' ? successMessage : successMessage); 
+            jQuery('#email').val(''); }, error: function (request, status, error) 
+            { alert('Sorry, we were unable to process your subscription.'); } }); } 
+            </script>
+            <!-- End maillist Signup Form -->
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
