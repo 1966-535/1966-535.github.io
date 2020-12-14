@@ -20,11 +20,36 @@
 				<p>Software Management & Maintenance</p>
 				<br><br>
 			</header>
-
+	<!-- Begin maillist Signup Form -->
+	<form method="post" name="subscribeform" id="subscribeform" enctype="multipart/form-data"> 
+		<br>
+		<!-- <br> -->
+			<!-- <h4><bold>Subscribe</bold></h4>
+			<small>We promise not to spam you : )</small><br><br> -->
+		<!-- <label><small>Email Address:</small></label> -->
+		<table border=0> <tr> <td> </td> 
+		<td class="attributeinput">
+		<input type=text name="email" value="" id="email" placeholder="Email Address" size="120" ></td> </tr> </table> 
+		<input type=hidden name="htmlemail" value="1"> <input type="hidden" name="list[4]" value="signup" /> 
+		<input type="hidden" name="subscribe" value="subscribe"/> <br>
+		<button class='btn btn-primary' onclick="if (checkform()) {submitForm();} return false;">Request Brochure</button> 
+		<div id="result" style="color: white;"></div> </form>
+		<script type="text/javascript"> 
+		function checkform() { re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/; if (!(re.test(jQuery("#email").val()))) { jQuery("#result").empty().append("Please enter a valid email address"); jQuery("#email").focus(); return false; } return true; } 
+		function submitForm() { successMessage = 'Thank you for your registration. Please check your email to confirm.'; 
+		data = jQuery('#subscribeform').serialize(); jQuery.ajax( { type: 'POST', 
+		data: data, url: "https://jobfetcher.org/lists/?p=subscribe&id=1", 
+		dataType: 'html', success: function (data, status, request) 
+		{ jQuery("#result").empty().append(data != '' ? successMessage : successMessage); 
+		jQuery('#email').val(''); }, error: function (request, status, error) 
+		{ console.log('Sorry, we were unable to process your subscription.'); } }); } 
+		</script>
+		<!-- End maillist Signup Form -->
 		<!-- Signup Form -->
-			<form action="https://qasa.us2.list-manage.com/subscribe/post?u=b2612a353ac8c1b786ccfb2a1&amp;id=ec3cfabc5b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			    <div id="mc_embed_signup_scroll">
-			<div class="mc-field-group">
+			<!-- <form action="https://qasa.us2.list-manage.com/subscribe/post?u=b2612a353ac8c1b786ccfb2a1&amp;id=ec3cfabc5b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			-->
+			
+			 <!-- <div class="mc-field-group">
 				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
 			</div>
 				<div id="mce-responses" class="clear">
@@ -33,34 +58,11 @@
 				</div>
 				<div class="clear"><br>
 					<input type="submit" value="Request Brochure" name="subscribe" id="mc-embedded-subscribe">
-				</div>
+				</div> -->
 			    </div>
-			</form>
-<!-- Begin maillist Signup Form -->
-<form method="post" name="subscribeform" id="subscribeform" enctype="multipart/form-data"> 
-            <br>
-            <br>
-                <h4><bold>Subscribe</bold></h4>
-                <small>We promise not to spam you : )</small><br><br>
-            <label><small>Email Address:</small></label>
-            <table border=0> <tr> <td> </td> 
-            <td class="attributeinput">
-            <input type=text name="email" value="" id="email" size="120" required></td> </tr> </table> 
-            <input type=hidden name="htmlemail" value="1"> <input type="hidden" name="list[4]" value="signup" /> 
-            <input type="hidden" name="subscribe" value="subscribe"/> <br>
-            <button class='btn btn-primary' onclick="if (checkform()) {submitForm();} return false;" >Subscribe to mailinglist</button> 
-            <div id="result" style="color: red;"></div> </form>
-            <script type="text/javascript"> 
-            function checkform() { re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/; if (!(re.test(jQuery("#email").val()))) { jQuery("#result").empty().append("Please enter a valid email address"); jQuery("#email").focus(); return false; } return true; } 
-            function submitForm() { successMessage = 'Thank you for your registration. Please check your email to confirm.'; 
-            data = jQuery('#subscribeform').serialize(); jQuery.ajax( { type: 'POST', 
-            data: data, url: "<?php  echo base_url().'/lists/?p=subscribe&id=1'?>", 
-            dataType: 'html', success: function (data, status, request) 
-            { jQuery("#result").empty().append(data != '' ? successMessage : successMessage); 
-            jQuery('#email').val(''); }, error: function (request, status, error) 
-            { alert('Sorry, we were unable to process your subscription.'); } }); } 
-            </script>
-            <!-- End maillist Signup Form -->
+			<!-- </form> -->
+
+		
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
